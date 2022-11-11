@@ -2,69 +2,34 @@
 <html>
 <title>Doherty Coding Club</title>
 <head>
+<link rel="stylesheet" href="stylesheet.css">
 <link rel="shortcut icon" type="image/x-icon" href="doherty.png">
 <link rel="apple-touch-icon" href="doherty.png">
 <meta charset="UTF-8">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Cinzel&family=Hubballi&display=swap');
-
 html, body, h1, h2, h3, h4 {font-family: "Lato", sans-serif;}
 
 body {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
-  font-family: 'Hubballi', cursive;
-}
-
-.quote-header {
-  overflow: hidden;
-  color: rgb(226, 222, 222);
-  background-color: #6a0e23;
-  background-size: cover;
-  display: flex;
-  justify-content: space-around;
-  font-size: 1em;
-  padding-bottom: 1px;
-  top:0;
-  width:100%;
-}
-
-.quote-header h3 {
-  font-family: 'Barriecito', cursive;
-}
-
-.Main-Header {
-  background-size: cover;
-  background-color: #8a0e2d;
-  margin: 0px;
-  padding-bottom: 59px;
 }
 
 .topnav {
-  padding-top: 3px;
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: lighter;
-  border-bottom: 1px solid rgba(255,255,255,.3);
-
-
-}
-.topnav ul {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
   margin: 0px;
 }
-.topnav li {
-  display: inline;
-  padding: 0 5%;
 
-}
 .topnav a {
   color: #f2f2f2;
- 
-  display: inline-block;
-  padding: .5em;
+  text-align: center;
+  width: 50%;
+  padding: 20px 20px;
   text-decoration: none;
-  
+  font-size: 50px;
 }
 
 .topnav a:hover {
@@ -73,57 +38,19 @@ body {
 }
 
 .topnav a.active {
-  background-color: #770421;
+  background-color: #4d0013;
   color: white;
 }
-
-#mainName h1 {
-  text-align: center;
-  margin: 0;
-  font-size: 4em;
-  font-weight: normal;
-  font-family: 'Cinzel', serif;
-  color: rgb(251, 251, 251);
-}
-
-.Logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-.separator {
-  background-color: rgb(249, 249, 142);
-  padding-bottom: 50px;
-  text-align: center;
-  font-size: 2em;
-}
-
   
 </style>
 </head>
 
 <body>
 
-  <header class="quote-header">
-    <h3> "First, solve the problem. Then write the code." - John Johnson</h3>
-  </header>
-
-  <div class="Main-Header">
-      <div class="topnav">
-          <ul>
-             <li> <a class="active" href="index.html">Home</a> </li>
-             <li>  <a href="resources.html">Resources</a> </li>
-             <li> <a href="problems.html">Problems</a> </li>
-          </ul>
-      </div>
-      <div id="mainName">
-  <h1>2022 Doherty Programming Club</h1>
-  <img class = "Logo" src="doherty_logo.png" width="225" height="150">
-  </div>
-
-
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="resources.html">Resources</a>
+  <a href="problems.html">Problems</a>
 </div>
 
 <div class="separator">
