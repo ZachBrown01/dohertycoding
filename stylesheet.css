@@ -166,3 +166,46 @@ body {
   font-size: 2em;
 }
 
+.Club-Info h2 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #f2f2f2;
+}
+
+.Club-Info p {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgb(1, 1, 1);
+}
+
+.Club-Info {
+  background-color: rgb(255, 103, 103);
+  overflow: hidden;
+  background-size: cover;
+}
+#Speech {
+  text-align: center;
+  font-size: 2em;
+  
+}
+
+.relevant-info {
+  
+  text-align: center;
+  float: left;
+  margin: 1%;
+  border-radius: 5%;
+  width: 30%;
+}
+
+.relevant-info p {
+  font-size: 1.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.relevant-info h2 {
+  font-size: 1.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
