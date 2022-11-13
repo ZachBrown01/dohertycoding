@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Cinzel&family=Hubballi&display=swap');
 html, body, h1, h2, h3, h4 {font-family: "Lato", sans-serif;}
 
@@ -143,6 +142,11 @@ body {
   display: block;
 }
 
+.logo {
+  display: block;
+  margin: auto;
+}
+
 #mainName h1 {
   text-align: center;
   margin: 0;
@@ -152,16 +156,13 @@ body {
   color: rgb(251, 251, 251);
 }
 
-.Logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
 .separator {
+  display: inline-block;
+  justify-content: space-around;
   background-color: rgb(249, 249, 142);
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
   text-align: center;
   font-size: 2em;
 }
