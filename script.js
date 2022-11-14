@@ -4,9 +4,6 @@
     showSlides(slideIndex);
    });
 
-   setInterval(function add() {
-    plusSlides(1);
-   }, 5000);
 
    
 
