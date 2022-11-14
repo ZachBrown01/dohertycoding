@@ -101,8 +101,8 @@ body {
   color: black;
 }
 
-.topnav a.active, {
-  background-color: #770421;
+.topnav a.active {
+  background-color: #7a001e;
   color: white;
 }
 
@@ -131,7 +131,7 @@ body {
 .separator {
   display: inline-block;
   justify-content: space-around;
-  background-color: rgb(249, 249, 142);
+  background-color: #f1d282;
   padding-top: 25px;
   padding-bottom: 25px;
   width: 100%;
