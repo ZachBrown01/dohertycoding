@@ -3,10 +3,13 @@
     var slideIndex = 1;
     showSlides(slideIndex);
    });
+
+
    
 
 function plusSlides(n) { //changes which slide is showing.
   showSlides(slideIndex += n);
+
 }
 
 function showSlides(n) { //handles switching between slides and shows the current one.
