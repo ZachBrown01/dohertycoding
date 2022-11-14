@@ -38,6 +38,7 @@ body {
   background-color: #8a0e2d;
   display: flex;
   overflow: visible;
+  z-index: 2;
   justify-content: space-evenly;
   text-align: center;
   border-top: 1px solid rgba(255,255,255,.3);
@@ -139,6 +140,11 @@ body {
   font-size: 2em;
 }
 
+.Club-Info h1 {
+  color: black;
+  font-size: 15px;
+}
+
 .Club-Info h2 {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #f2f2f2;
@@ -153,16 +159,30 @@ body {
 .Club-Info {
   background-color: rgb(255, 103, 103);
   overflow: hidden;
+  display: table;
+  padding: 20px;
+  justify-content: space-around;
   background-size: cover;
+  width: 100%;
 }
+
+.Club-Info resource {
+  margin: 10px 15px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  z-index: 1;
+  border: 5px ridge #8a0e2d;
+}
+
 #Speech {
   text-align: center;
   font-size: 2em;
   
 }
 
-.relevant-info {
-  
+.relevant-info {  
   text-align: center;
   float: left;
   margin: 1%;
