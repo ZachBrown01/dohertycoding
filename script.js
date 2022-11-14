@@ -3,10 +3,16 @@
     var slideIndex = 1;
     showSlides(slideIndex);
    });
+
+   setInterval(function add() {
+    plusSlides(1);
+   }, 5000);
+
    
 
 function plusSlides(n) { //changes which slide is showing.
   showSlides(slideIndex += n);
+
 }
 
 function showSlides(n) { //handles switching between slides and shows the current one.
