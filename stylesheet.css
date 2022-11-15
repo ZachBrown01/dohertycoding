@@ -164,6 +164,8 @@ body {
   justify-content: space-around;
   background-size: cover;
   width: 100%;
+  border-bottom: 6px groove #8a0e2d;
+  border-top: 6px groove #8a0e2d;
 }
 
 .Club-Info resource {
