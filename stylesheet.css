@@ -159,7 +159,9 @@ body {
 .Club-Info {
   background-color: rgb(255, 103, 103);
   overflow: hidden;
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
   padding-top: 20px;
   padding-bottom: 20px;
   justify-content: space-around;
@@ -170,13 +172,22 @@ body {
 }
 
 .Club-Info resource {
-  margin: 10px 15px;
+  margin: 25px auto;
   padding: 10px;
   display: inline-block;
   font-size: 15px;
   text-align: center;
+  background-color: #f1d282;
+  border-radius: 50%;
+  overflow: hidden;
   z-index: 1;
   border: 5px ridge #8a0e2d;
+}
+
+.rcont {
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
 }
 
 #Speech {
@@ -215,6 +226,8 @@ body {
   display: block;
   height: 96%;
   margin: 0;
+  border-radius: 150px;
+  border: 4px solid gray;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -279,7 +292,7 @@ body {
   bottom: 8px;
   border-radius: 25px;
   width: 90%;
-  margin-left: 5%;
+  margin-left: 4%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.634);
   
