@@ -160,7 +160,8 @@ body {
   background-color: rgb(255, 103, 103);
   overflow: hidden;
   display: table;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: space-around;
   background-size: cover;
   width: 100%;
