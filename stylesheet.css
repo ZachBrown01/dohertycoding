@@ -208,6 +208,7 @@ body {
 .mySlides {
   position: relative;
   height: 550px;
+  justify-content: space-around;
 }
 
 .mySlides img {
@@ -224,11 +225,13 @@ body {
 .slideshow-container {
   position: relative;
   margin: 10%;
-  background-color: #3e6fac;
+  border-radius: 75px;
+  border: 8px double white;
+  background-color: #012c61;
 }
 
 .slideshow-container-background {
-  background-image:url('assets/nighbackground.png');
+  background-image:url('assets/space4k.jpg');
   background-size: cover;
   padding-bottom: 40px;
   background-repeat: no-repeat;
@@ -270,11 +273,13 @@ body {
 .text {
   color: #000000;
   font-size: 30px;
+  display: inline-block;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 94%;
-  margin-left: 1%;
+  border-radius: 25px;
+  width: 90%;
+  margin-left: 5%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.634);
   
@@ -286,7 +291,8 @@ body {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 20px;
+  left: 20px;
 }
 
 .fade {
