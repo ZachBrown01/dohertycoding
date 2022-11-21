@@ -21,6 +21,13 @@ body {
   width:100%;
 }
 
+iframe {
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 3px solid black;
+  box-shadow: 3px 3px 7px black;
+}
+
 .quote-header h3 {
   font-family: 'Barriecito', cursive;
 }
@@ -41,6 +48,7 @@ body {
   z-index: 2;
   justify-content: space-evenly;
   text-align: center;
+  box-shadow: 0px 3px 7px black;
   border-top: 1px solid rgba(255,255,255,.3);
   border-bottom: 1px solid rgba(255,255,255,.3);
 }
@@ -152,13 +160,19 @@ body {
 
 .Club-Info h2 {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #f2f2f2;
+  color: #D3D3D3;
 }
 
 .Club-Info p {
   margin-left: 10%;
   margin-right: 10%;
   color: rgb(1, 1, 1);
+}
+
+.resourceline {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .Club-Info {
@@ -179,6 +193,7 @@ body {
 .Club-Info resource {
   margin: 25px auto;
   padding: 10px;
+  box-shadow: 5px 5px 10px black;
   display: inline-block;
   font-size: 15px;
   text-align: center;
@@ -186,7 +201,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
   z-index: 1;
-  border: 5px ridge #8a0e2d;
+  border: 5px solid #8a0e2d;
 }
 
 .rcont {
@@ -204,9 +219,13 @@ body {
 .relevant-info {  
   text-align: center;
   float: left;
+  background-color: #f1d282;
   margin: 1%;
-  border-radius: 5%;
-  width: 31%;
+  font-size: 13px;
+  border: 3px solid #8a0e2d;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px black;
+  width: 28%;
 }
 
 .relevant-info p {
@@ -330,7 +349,8 @@ body {
 
 .Problems-Info {
   
-  background-color: rgb(224, 22, 22);
+  background-color: #012c61;
+  color: white;
   overflow: hidden;
   
   position: relative;
