@@ -71,6 +71,22 @@ iframe {
   text-decoration: none;
 }
 
+.problem a {
+  color: #f2f2f2;
+  float: left;
+  display: block;
+  border-radius: 10px;
+  background-color: #8a0e2d;
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px black;
+  font-size: 2em;
+  width: 15%;
+  text-align: center;
+  margin-right: 2%;
+  text-decoration: none;
+  padding: 20px;
+}
+
 
 .dropdown {
   display: inline-block;
@@ -110,6 +126,11 @@ iframe {
 }
 
 .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.problem a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -380,11 +401,16 @@ iframe {
 }
 
 .problem {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%;
+  margin: 5%;
   border-bottom: 5px groove #8a0e2d;
- 
+}
+
+.problem p {
+  padding-left: 2%;
+  font-size: 1em;
+  align: justify;
+  display: flex;
+  justify-content: space-around;
 }
 
 .problems-container {
@@ -409,12 +435,6 @@ iframe {
   border-radius: 25px;
   border: 3px solid gray;
   box-shadow: 3px 3px 7px gray;
-}
-
-.problems-separator h2 {
-  font-size: 2em;  
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: aliceblue;
 }
 
 .notes-container {
