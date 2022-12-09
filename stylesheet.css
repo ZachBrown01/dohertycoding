@@ -125,12 +125,7 @@ iframe {
   text-align: left;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.problem a:hover {
+.topnav a:hover, .problem a:hover, .Club-Info resource:hover  {
   background-color: #ddd;
   color: black;
 }
@@ -169,6 +164,7 @@ iframe {
   padding-top: 25px;
   padding-bottom: 25px;
   width: 100%;
+  border-top: 6px groove #8a0e2d;
   text-align: center;
   font-size: 2em;
 }
@@ -401,7 +397,7 @@ iframe {
 }
 
 .problem {
-  margin: 5%;
+  margin: 2% 5%;
   border-bottom: 5px groove #8a0e2d;
 }
 
@@ -417,7 +413,7 @@ iframe {
   background-color: rgb(255, 96, 96);
   height: 100%;
   background-size: cover;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   background-repeat: no-repeat;
   overflow: hidden; 
 }
@@ -425,8 +421,8 @@ iframe {
 .problems-separator {
   display: inline-block;
   justify-content: space-around;
-  background-color: #530a0a;
   padding-bottom: 25px;
+  background-color: #530a0a;
   width: 100%;
   text-align: center;
 }
